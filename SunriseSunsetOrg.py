@@ -5,7 +5,7 @@ from dateutil import tz
 from datetime import timedelta
 from datetime import datetime
 
-class SunriseSunsetOrgData:
+class SunriseSunsetOrg:
 
   FORMAT_ISO8601 = 0
   FORMAT_DEFAULT = 1
@@ -442,33 +442,3 @@ class SunriseSunsetOrgData:
     
     
     self.Date = self.Sunrise.date()
-
-
-if __name__ == '__main__':
-
-  H8_Latitude  = 48.5128741856533
-  H8_Longitude = 7.952708902719939
-  
-  Berlin_Latitude  = 52.5069386
-  Berlin_Longitude = 13.2599274
-  
-  Date             = datetime.strptime('2023-05-25', '%Y-%m-%d')
-  
-  #ssod = SunriseSunsetOrgData(H8_Latitude, H8_Longitude, Date)
-  ssod = SunriseSunsetOrgData(Berlin_Latitude, Berlin_Longitude, Date)
-
-  print('Url        : ' + str(ssod.Url))
-  print('Error-Code : ' + str(ssod.ErrorCode))
-  print('---------------------------------------')
-  print('Date                        : ' + str(ssod.Date))
-  print('Sunrise                     : ' + str(ssod.Sunrise))
-  print('Sunset                      : ' + str(ssod.Sunset))
-  print('Solar Noon                  : ' + str(ssod.SolarNoon))
-  print('Day Length                  : ' + str(ssod.DayLength))
-  print('Civil Twilight Begin        : ' + str(ssod.CivilTwilightBegin))
-  print('Civil Twilight End          : ' + str(ssod.CivilTwilightEnd))
-  print('Nautical Twilight Begin     : ' + str(ssod.NauticalTwilightBegin))
-  print('Nautical Twilight End       : ' + str(ssod.NauticalTwilightEnd))
-  print('Astronomical Twilight Begin : ' + str(ssod.AstronomicalTwilightBegin))
-  print('Astronomical Twilight End   : ' + str(ssod.AstronomicalTwilightEnd))
-  
