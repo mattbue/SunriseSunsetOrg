@@ -1,5 +1,5 @@
 # SunriseSunsetOrgData
-This is some code for getting sun data from the API of [sunrise-sunset.org](https://sunrise-sunset.org/).
+This is some python code for getting sun data from the API of [sunrise-sunset.org](https://sunrise-sunset.org/).
 
 # Intension
 I was working on some house automation for which it was necessary to know when sun will rise and when it will set. Therefore I searched for an online service providing these data. Finally I found [sunrise-sunset.org](https://sunrise-sunset.org/) from where all relevant data can be requested.
