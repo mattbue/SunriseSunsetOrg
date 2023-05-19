@@ -1,4 +1,4 @@
-# SunriseSunsetOrgData
+# SunriseSunsetOrg
 This is some python code for getting sun data from the API of [sunrise-sunset.org](https://sunrise-sunset.org/).
 
 # Intension
@@ -22,7 +22,7 @@ This code was develloped on Debian 11.6 with the following versions:
 - dateutil 2.8.2
 
 # Usage
-Using the code is very simple. Just create a new instance of SunriseSunsetOrgData by providing the coordinate of the place the data shall be requested for.
+Using the code is very simple. Just create a new instance of SunriseSunsetOrg by providing the coordinate of the place the data shall be requested for.
 By default the data is requested for 'today'. In case you need data for another day just append the desired date.  
 You can find some examples in the code.
 
