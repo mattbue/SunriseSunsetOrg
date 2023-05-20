@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-from ./../SunriseSunsetOrg import SunriseSunsetOrg
+import sys
+sys.path.append('..')
+from SunriseSunsetOrg import SunriseSunsetOrg
 
 Berlin_Latitude  = 52.5069386
 Berlin_Longitude = 13.2599274
