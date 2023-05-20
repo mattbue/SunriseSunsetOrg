@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from ./../SunriseSunsetOrg import SunriseSunsetOrg
 
 Berlin_Latitude  = 52.5069386
