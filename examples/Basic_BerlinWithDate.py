@@ -2,6 +2,7 @@
 import sys
 sys.path.append('..')
 from SunriseSunsetOrg import SunriseSunsetOrg
+from datetime import datetime
 
 Berlin_Latitude  = 52.5069386
 Berlin_Longitude = 13.2599274
